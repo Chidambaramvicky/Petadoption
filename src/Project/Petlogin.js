@@ -22,8 +22,8 @@ export default function Petlogin() {
           <a>View Our <a href='https://www.cockroachlabs.com/cloud-terms-and-conditions/'>Terms of Service</a> and <a href='https://www.cockroachlabs.com/cloud-terms-and-conditions/'>Policy</a></a>
           <br></br>
           <br></br>
-          <bh>New to OurWebsite 
-            <Link to='/signup'>Sign up</Link>
+          <bh>New to OurWebsite  
+            <Link to='/sig'>sign up</Link>
             </bh>
         </form>
       </div>
