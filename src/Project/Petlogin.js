@@ -8,22 +8,23 @@ export default function Petlogin() {
     <div className='division1'>
       <div className='DivForm'>
         <form>
-          <h2> Login </h2>
+          <br></br>
+          <h1> Login </h1>
           <br></br>
           <input type='text' placeholder='Username or Email' required></input>
           <br></br>
           <br></br>
-          <input type='password' placeholder='password' required></input>
+          <input type='password' placeholder='Password' ></input>
           <br></br>
           <br></br>
-          <button className='subButton'>submit</button>
+          < button className='subButton'><Link to='/home'>LOG IN</Link></button>
           <br></br>
+          {/* <br></br> */}
+          <a>View Our <a href='https://mypetsa.com/adoption-terms-and-conditions/'>Terms of Service</a> and <a href='https://mypetsa.com/adoption-terms-and-conditions/'>Policy</a></a>
+          {/* <br></br> */}
           <br></br>
-          <a>View Our <a href='https://www.cockroachlabs.com/cloud-terms-and-conditions/'>Terms of Service</a> and <a href='https://www.cockroachlabs.com/cloud-terms-and-conditions/'>Policy</a></a>
-          <br></br>
-          <br></br>
-          <bh>New to OurWebsite  
-            <Link to='/sig'>sign up</Link>
+          <bh>Need an account?     
+            <Link to='/sig'> Sign up</Link>
             </bh>
         </form>
       </div>

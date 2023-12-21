@@ -12,7 +12,7 @@
     background-image: url=('https://media.istockphoto.com/id/1214700549/vector/paw-print-cat-dog-puppy-pet-trace-flat-style-stock-vector.jpg?s=612x612&w=0&k=20&c=pdfWBzh2b5-pmR01CRDzXPyh7zxX9uDfJXCaiiGKwEw');
     background-size: cover; /* Adjusts the size of the background image */
     background-position: center;
-    background: linear-gradient(to right, #ffffff, #ffffff, #ffffff,#C4A484,#C4A484);
+    /* background: linear-gradient(to right, #ffffff, #ffffff, #e8a44b,#fcfaf6,#f1a85e); */
     margin: 0;
   }
   
@@ -29,8 +29,8 @@
   }
   
   .dog img {
-    max-width: 100%;
-    height: auto;
+    max-width: 500;
+    height: 300;
   }
   
   .main {
@@ -64,9 +64,9 @@
   input[type='password'] {
     border: none;
     border-bottom: 2px solid #000000;
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 20px;
-    width: 100%;
+    width: 87%;
     transition: border-bottom-color 0.3s ease-in-out;
   }
   
