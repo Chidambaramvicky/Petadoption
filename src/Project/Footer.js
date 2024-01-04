@@ -6,6 +6,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import { red } from '@mui/material/colors';
 
 export default function Footer() {
     return (
@@ -28,12 +29,12 @@ export default function Footer() {
                     </div>
 
                     <div class="column1">
-                        <h3>MADE IN INDIA</h3>
+                        <h3 style={{color:'white'}}>Made in India</h3>
                         All our products are made in India.
                     </div>
 
                     <div class="column1">
-                        <h3>Newsletter</h3>
+                        <h3 style={{color:'white'}}>Newsletter</h3>
                       
                         <div>
                             <input id='em' type="email" placeholder="Your email id here" />

@@ -76,16 +76,16 @@
     border-bottom-color: #0f1010;
   }
   
-  button {
+  .jk {
     padding: 10px 20px;
-    background-color: #f7fbfee5;
-    color: #131212cd;
+    background-color: #262424e5;
+    color: #c73737cd;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
   }
   
-  button:hover {
+  jk:hover {
     background-color: #e7f2fe;
   }

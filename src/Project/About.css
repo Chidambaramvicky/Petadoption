@@ -5,6 +5,9 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ .lk{
+  padding-right: 26%;
+ }
  .hlo{
   padding-right: 0%;
  }

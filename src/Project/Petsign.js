@@ -39,7 +39,7 @@ export default function Petsign() {
         </div>
         
         <div className="but">
-          <button><Link to='/'>Sign up</Link></button>
+          <button className='jk'><Link to='/'>Sign up</Link></button>
         </div>
       </div>
     </div>

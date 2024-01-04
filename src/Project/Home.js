@@ -1,13 +1,16 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './About.css'
 import im from '../img/about-1.jpg'
 import inn from '../img/about-2.jpg'
 import ig from '../img/about-3.jpg'
 import { Link } from 'react-router-dom'
 import Footer from './Footer'
+import { MyContext } from './ProjectContext'
 export default function Home() {
-  return (
-    <div>
+    const {InputUserName} =useContext(MyContext);
+    return (
+        <div>
+          {InputUserName}
         {/* {/* <link href="css/About.css" rel="stylesheet"></link>
     <div class="container-fluid p-0"> */}
         <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-lg-5">
@@ -23,12 +26,7 @@ export default function Home() {
                     {/* <Link to='/about'class="nav-item nav-link active">About </Link> */}
                     <Link to='/adop' class="nav-item nav-link">Adop Pet</Link>
                     <Link to='/ser' class="nav-item nav-link">Service</Link>
-                        <div class="nav-item dropdown">
-                            <div class="dropdown-menu rounded-0 m-0">
-                            <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                            <a href="single.html" class="dropdown-item">Blog Detail</a>
-                        </div>
-                    </div>
+                
                     <Link to='/con' class="nav-item nav-link">Contact</Link>
                     <div className='hlo'>
                     <Link to='/' class="nav-item nav-link">Login</Link>
@@ -43,7 +41,7 @@ export default function Home() {
         <div class="container py-5">
         <div class="row py-5">
             <div class="col-lg-7 pb-5 pb-lg-0 px-3 px-lg-5">
-                <h1 class="text-secondary mb-3">ReHome and Adopt Pet</h1>
+                <h1 class="text-secondary mb-3">Rehome and Adopt Pet</h1>
                 <h5 >Welcome to Adopt a Pet, a web platform, established by Mars Petcare to connect pet lovers, who would like to adopt pets from registered animal shelters in their region.  </h5>
 
                   <h5> We have passionate belief that every dog and a cat are deserve a loving home and aspire to help the re-home homeless pets across a India.    </h5>

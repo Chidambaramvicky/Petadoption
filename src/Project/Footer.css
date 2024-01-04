@@ -1,3 +1,4 @@
+
 footer {
   background-color: rgb(8, 2, 2);
   color: white;
@@ -27,6 +28,7 @@ footer * {
   flex-direction: column;
   padding: 0 2em;
   min-height: 15em;
+  color: rgb(247, 246, 244);
 }
 #top {
   width: 100%;
